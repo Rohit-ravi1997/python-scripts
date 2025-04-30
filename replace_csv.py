@@ -44,6 +44,6 @@ matched_df.to_csv("1012_Replaced.csv", index=False, encoding="utf-8")
 unmatched_df.to_csv("1012_Unmatched.csv", index=False, encoding="utf-8")
 
 print("✅ Case-insensitive replacement complete!")
-print("✔ Mapped: 1012_Replaced.csv")
+print("✔ created: 1012_Replaced.csv")
 print("❌ Unmatched: 1012_Unmatched.csv")
 
