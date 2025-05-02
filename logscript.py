@@ -47,7 +47,7 @@ with open('/etc/hosts', 'r') as file:
                 result = subprocess.run(full_command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
                 # Print the output and errors (if any)
-                print("Output:", result.stdout)
+                print("result:", result.stdout)
                 print("Errors:", result.stderr)
             
             except Exception as e:
